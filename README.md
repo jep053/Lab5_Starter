@@ -9,7 +9,7 @@ Name: Jeong Min Park, Ophir Maor
 ## Check Your Understanding
 **Q1: Would you use a unit test to test the "message" feature of a messaging application?**
 
-No, because unit tests are best for isolated, small functions. The "message" feature involves multiple components like the UI, network requests, and database — this is better tested with integration or end-to-end tests.
+No, because unit tests are best for isolated, small functions. The "message" feature involves multiple components like the UI, network requests, and database, this is better tested with integration or end-to-end tests.
 
 **Q2: Would you use a unit test to test the "max message length" feature?**
 
