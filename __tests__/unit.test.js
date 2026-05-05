@@ -10,6 +10,7 @@ import {
 
 // TODO - Part 2
 
+// Phone Number Tests
 test('valid phone number with area code', () => {
   expect(isPhoneNumber('123-456-7890')).toBe(true);
 });
@@ -27,6 +28,7 @@ test('invalid phone number too short', () => {
 });
 
 
+// Email Tests
 test('valid email', () => {
   expect(isEmail('test@example.com')).toBe(true);
 });
@@ -44,6 +46,7 @@ test('invalid email missing domain ending', () => {
 });
 
 
+// Strong Password Tests
 test('valid strong password with letters and numbers', () => {
   expect(isStrongPassword('abc123')).toBe(true);
 });
@@ -61,6 +64,7 @@ test('invalid password too short', () => {
 });
 
 
+// Date Tests
 test('valid date with one digit month and day', () => {
   expect(isDate('1/2/2026')).toBe(true);
 });
@@ -78,6 +82,7 @@ test('invalid date with two digit year', () => {
 });
 
 
+// Hex Color Tests
 test('valid 3 character hex color with hashtag', () => {
   expect(isHexColor('#fff')).toBe(true);
 });
