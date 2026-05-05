@@ -30,7 +30,7 @@ test('invalid phone number too short', () => {
 
 // Email Tests
 test('valid email', () => {
-  expect(isEmail('test@example.com')).toBe(false);
+  expect(isEmail('test@example.com')).toBe(true);
 });
 
 test('valid email with underscore', () => {
